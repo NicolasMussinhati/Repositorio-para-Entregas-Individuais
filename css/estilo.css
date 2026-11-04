@@ -37,3 +37,12 @@ body {
 .conteudo h1 {
   color: #00e5ff;
 }
+
+.caixa {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
