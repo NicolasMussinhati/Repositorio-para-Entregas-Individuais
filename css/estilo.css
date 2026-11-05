@@ -46,3 +46,31 @@ body {
   margin: 20px auto;
   max-width: 600px;
 }
+
+.formulario {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 350px;
+}
+
+.formulario h1 {
+  color: #00e5ff;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  background-color: #111111;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #00e5ff;
+}
