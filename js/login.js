@@ -1,9 +1,9 @@
 function entrar() {
-  var email = document.getElementById("input_email").value;
-  var senha = document.getElementById("input_senha").value;
-  var mensagem = document.getElementById("mensagem");
+  let email = document.getElementById("input_email").value;
+  let senha = document.getElementById("input_senha").value;
+  let mensagem = document.getElementById("mensagem");
 
-  var posicao = buscarPosicaoPorEmail(email);
+  let posicao = buscarPosicaoPorEmail(email);
 
   if (email == "" || senha == "") {
     mensagem.innerHTML = "Preencha e-mail e senha.";
